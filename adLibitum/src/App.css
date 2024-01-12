@@ -1,0 +1,37 @@
+
+body{
+  background-color: rgb(3, 15, 37);
+  color:aliceblue;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+  padding: 10px;
+  width: 25%;
+  height: 20%;
+  background-color: aliceblue;
+  color: black;
+  border-radius:5px;
+}
+.logo{
+  height: 250px;
+  width: 250px;
+}
+.Entrada{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  
+}
+.homeText{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  font-size: 35px;
+  padding: 2%;
+}
