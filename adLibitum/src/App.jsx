@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>AdLibitum Academy</title>
-</head>
+function App() {
+  const [count, setCount] = useState(0)
 
-
-<body>
-  <section class="Entrada">
+  return (
+    <>
+      <section class="Entrada">
     <div class="title">
-      <img class="logo" src="assets/LogoSinFondoW.png">
-    <h1>Ad Libitum Academy</h1>
+      <img class="logo" src="src/assets/LogoSinFondoW.png">
+        </img>
+    <h2>Ad Libitum Academy</h2>
     <nav> 
       <h4>Home Page</h4>
       <h4>Blog </h4>
@@ -51,7 +49,8 @@
   </section>
 
 
-  <script type="module" src="index.js"></script>
-</body>
+    </>
+  )
+}
 
-</html>
+export default App
