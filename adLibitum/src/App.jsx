@@ -12,9 +12,8 @@ function App() {
         <div class="title">
           <img class="logo" src="src/assets/LogoSinFondoW.png">
           </img>
-          <h2>Ad Libitum Academy</h2>
+          <h3>Ad Libitum Academy</h3>
           <nav>
-            <h4>Home Page</h4>
             <h4>Blog </h4>
             <h4>Clases</h4>
             <h4>Sobre mí</h4>
@@ -26,7 +25,7 @@ function App() {
           <h2>
             ¿Qué es Ad Libitum?
           </h2>
-          <p>"Ad Libitum" es un término musical de origen latino que se traduce como "a placer" o "a voluntad".
+          <p className='texto1'>"Ad Libitum" es un término musical de origen latino que se traduce como "a placer" o "a voluntad".
             En el mundo de la música, cuando un músico realiza una interpretación "ad libitum", tiene la libertad de variar la
             ejecución según su gusto o elección personal.
             Esta expresión refleja la creatividad y la libertad artística que buscamos fomentar en nuestra academia.
