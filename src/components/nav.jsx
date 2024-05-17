@@ -5,28 +5,27 @@ function Nav() {
 
     return (
         <>
-            <section class="Entrada">
+            <section >
 
                 <div class="title">
-                    <img class="logo" src="src/assets/LogoSinFondoW.png">
-                    </img>
-                    <h3>Ad Libitum Academy</h3>
-                    <nav>
-                        <ul className='list'>
-                            <li>
+                    <nav className='list'>
+                        
                                 <Link to="/" className='textNav'>Home</Link>
-                            </li>
-                            <li>
                                 <Link to="/blog" className='textNav'>Blog</Link>
-                            </li>
-                        <li className='textNav'>Clases</li>
-                        <li className='textNav'>Sobre mí</li>
-                        <li className='textNav'>Eventos</li>
-                        <li className='textNav'>Recursos Gratuitos</li>
-                        </ul>
+                                <Link to="/clases" className='textNav'>Clases</Link>
+                                <Link to="/about-me" className='textNav'>Sobre Mí</Link>
+                                <Link to="/eventos" className='textNav'>Eventos</Link>
+                                <Link to="/recursos" className='textNav'>Recursos Gratuitos</Link>
+                            
                     </nav>
                 </div>
+                <div className='banner'>
+                <img class="logo" src="src/assets/LogoSinFondoW.png">
+                    </img>
+                    <h1>Ad Libitum Academy</h1>
+                </div>
             </section>
+                   
         </>
     )
 }
