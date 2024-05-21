@@ -7,7 +7,7 @@ function SobreMi() {
     return(
         <>
         <Nav></Nav>
-        <div ></div>
+        <div className='homeText'>
         <h3>Naylimar Alvarez Cermeño</h3>
         <p className='texto1'>
 Violinista venezolana, graduada en Interpretación Musical
@@ -22,7 +22,7 @@ Violinista venezolana, graduada en Interpretación Musical
  Luis Toro, Alejandra Urrutia, Gustavo Dudamel. Durante toda su carrera musical, 
  ha desempeñado también una importante labor como docente de violín, cuenta con 7 años de
   experiencia enseñando este instrumento a niños, jóvenes y adultos. 
-</p>
+</p></div>
         </>
     )
 }
