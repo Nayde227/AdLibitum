@@ -8,7 +8,7 @@ function SobreMi() {
         <>
         <Nav></Nav>
         <div className='homeText'>
-        <h3>Naylimar Alvarez Cermeño</h3>
+        <h2>Naylimar Alvarez Cermeño</h2>
         <p className='texto1'>
 Violinista venezolana, graduada en Interpretación Musical
  (Conservatorio de Música Simón Bolívar/ UNEARTE) ; 

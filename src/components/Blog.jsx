@@ -9,12 +9,12 @@ function Blog() {
   
     return (
       <>
-        <section >
+        <section className='gen'>
         <Nav></Nav>
           <div class="homeText">
-            <h3>
+            <h2>
               ¿Qué es Ad Libitum?
-            </h3>
+            </h2>
             <p className='texto1'>"Ad Libitum" es un término musical de origen latino que se traduce como "a placer" o "a voluntad".
               En el mundo de la música, cuando un músico realiza una interpretación "ad libitum", tiene la libertad de variar la
               ejecución según su gusto o elección personal.
