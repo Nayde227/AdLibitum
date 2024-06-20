@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import '../Blog.css'
+import '../Nav.css'
 
 function Nav() {
 
@@ -7,11 +7,11 @@ function Nav() {
         <>
             <section className='navBox'>
                 <div className='banner'>
-                    <img class="logo" src="src/assets/LogoSinFondoW.png">
+                    <img className="logo" src="src/assets/LogoSinFondoW.png">
                     </img>
                     <h1> Ad Libitum Academy</h1>
                 </div>
-                <div class="nav">
+                <div className="nav">
                     <div className='list'>
 
                         <Link to="/" className='textNav'>Home</Link>

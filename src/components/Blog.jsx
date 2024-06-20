@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import '../Blog.css'
+import '../Nav.css'
 import Nav from './nav'
 
 
