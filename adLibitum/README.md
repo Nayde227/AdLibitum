@@ -1,1 +1,0 @@
-# Ad Libitum Academy

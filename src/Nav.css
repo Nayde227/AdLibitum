@@ -1,0 +1,94 @@
+
+  
+.logo{
+  height: 300px;
+  width: 300px;
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+
+.homeText{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 5%;
+  margin-left: 470px;
+  /* background-color: rgba(67, 67, 67, 0.347); */
+  
+}
+
+.textNav{
+  display: flex;
+  font-size: 40px;
+  color:white;
+  justify-content: center;
+  
+}
+.list{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+.navBox {
+  background-color: rgb(5, 5, 30);
+  width:20%;
+  height: 85%;
+  padding: 10px;
+  margin:30px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.textNav:hover {
+  color: rgb(0, 90, 139); /* Color del enlace al pasar el cursor */
+  transform: scale(1.1); /* Aumenta el tamaño del enlace al pasar el cursor */
+}
+.footNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  margin-top: 25px;
+}
+.social-icon{
+  margin-top: 20%;
+  height: 60px;
+  width: 60px;
+}
+.social-icon:hover{
+  transform: scale(1.1);
+}
+.cotiza{
+  height: 50px;
+  width: 250px;
+  padding: 5% 0% 5% 11%;
+  border-radius: 20px;
+  margin-left: 20%;
+  
+  font-size: 35px;
+  border:none;
+  font-weight: bold;
+  background-color: aliceblue;
+  color: black;
+}
+.cotiza:hover{
+  transform: scale(1.1);
+  background-color: rgb(23, 173, 227);
+  cursor: pointer;
+  border:none;
+}
+
