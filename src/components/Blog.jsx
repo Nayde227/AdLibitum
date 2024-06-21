@@ -11,7 +11,7 @@ function Blog() {
       <>
         <section className='gen'>
         <Nav></Nav>
-          <div class="homeText">
+          <div className="homeText">
             <h2>
               ¿Qué es Ad Libitum?
             </h2>

@@ -21,7 +21,9 @@ function Nav() {
                         <Link to="/eventos" className='textNav'>Eventos</Link>
                         <Link to="/recursos" className='textNav'>Recursos Gratuitos</Link>
 
+                        <a className='cotiza' target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScA_TxYyOAO7u_1cTckwZHX6yzRxXsOBbhIY2R4dIqM0DO82A/viewform?usp=sf_link'> Cotiza Aquí</a>
                     </div>
+                    
                 </div>
                 <footer className='footNav'>
                     <a href="https://www.instagram.com/adlibitumacademy/" target="_blank" rel="noopener noreferrer" className="instagram-link">

@@ -1,0 +1,27 @@
+.cuaderno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .imgR{
+    width: 700px;
+    height: 900px;
+    margin-left: 15%;
+    margin-top:5%;
+  }
+ 
+.guía{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-left: 15%;
+  }
+  .guía:hover{
+    color: rgb(0, 90, 139); /* Color del enlace al pasar el cursor */
+  transform: scale(1.1); /* Aumenta el tamaño del enlace al pasar el cursor */
+  }
+  
