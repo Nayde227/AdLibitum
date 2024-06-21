@@ -1,29 +1,30 @@
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import '../Nav.css'
-
+import logo from '../assets/LogoSinFondoW.png';
 function Nav() {
 
     return (
         <>
             <section className='navBox'>
                 <div className='banner'>
-                    <img className="logo" src="src/assets/LogoSinFondoW.png">
+                    <img className="logo" src={logo}>
                     </img>
                     <h1> Ad Libitum Academy</h1>
                 </div>
                 <div className="nav">
                     <div className='list'>
 
-                        <Link to="/" className='textNav'>Home</Link>
-                        <Link to="/blog" className='textNav'>Blog</Link>
-                        <Link to="/clases" className='textNav'>Clases</Link>
-                        <Link to="/about-me" className='textNav'>Sobre Mí</Link>
-                        <Link to="/eventos" className='textNav'>Eventos</Link>
-                        <Link to="/recursos" className='textNav'>Recursos Gratuitos</Link>
 
+                            <Link to="/" className='textNav'>Home</Link>
+                            <Link to="/blog" className='textNav'>Blog</Link>
+                            <Link to="/clases" className='textNav'>Clases</Link>
+                            <Link to="/about-me" className='textNav'>Sobre Mí</Link>
+                            <Link to="/eventos" className='textNav'>Eventos</Link>
+                            <Link to="/recursos" className='textNav'>Recursos Gratuitos</Link>
+                        
                         <a className='cotiza' target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScA_TxYyOAO7u_1cTckwZHX6yzRxXsOBbhIY2R4dIqM0DO82A/viewform?usp=sf_link'> Cotiza Aquí</a>
                     </div>
-                    
+
                 </div>
                 <footer className='footNav'>
                     <a href="https://www.instagram.com/adlibitumacademy/" target="_blank" rel="noopener noreferrer" className="instagram-link">
