@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "Nayde227.github.io/AdLibitum/root",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
