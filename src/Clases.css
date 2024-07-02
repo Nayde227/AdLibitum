@@ -1,0 +1,13 @@
+
+.clasesText{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+.fotoV{
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+  }
+   
+  
