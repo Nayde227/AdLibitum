@@ -67,7 +67,7 @@
 .list{
   display: flex;
   flex-direction: column; 
-  justify-content: center;
+  align-items: center;
   gap: 20px;
   list-style-type: none;
 }
@@ -103,11 +103,12 @@
   transform: scale(1.1);
 }
 .cotiza{
+  
   height: 50px;
   width: 250px;
   padding: 5% 0% 5% 11%;
   border-radius: 20px;
-  margin-left: 20%;
+  /* margin-left: 30%; */
   
   font-size: 35px;
   border:none;
@@ -140,45 +141,45 @@
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: transparent;
+      
       width: 150%;
       
   }
   .navBox{
     background-color: transparent;
     width: 50%;
-    height: 50%;
     padding: 10px;
     margin: 30px;
     border-radius: 20px;
     overflow: hidden;
     position: fixed;
   }
+ 
 
   .nav.active {
       display: flex;
-      background-color: rgb(5, 5, 30);
+      background-color: rgb(5, 5, 30, 0.8);
+  }
+  .list{
+    margin-left: 34%;
+    gap: 10px;
+    list-style-type: none;
   }
 
-  .nav ul {
-      flex-direction: column;
-  }
-
-  
 
   .menu-hamburguesa .change.bar1 {
       transform: rotate(-45deg) translate(-9px, 6px);
-      background-color: rgb(5, 5, 30);
+      background-color: rgb(5, 5, 30,);
   }
 
   .menu-hamburguesa .change.bar2 {
       opacity: 0;
-      background-color: rgb(5, 5, 30);
+      background-color: rgb(5, 5, 30,);
   }
 
   .menu-hamburguesa .change.bar3 {
       transform: rotate(45deg) translate(-8px, -8px);
-      background-color: rgb(5, 5, 30);
+      background-color: rgb(5, 5, 30,);
   }
   .banner{
     display: none;
@@ -187,8 +188,18 @@
     font-size: 20px;
   }
   .cotiza{
-    font-size: 20px;
-    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
   }
-  
+  .social-icon{
+    margin-top: 20%;
+    height: 25px;
+    width: 25px;
+  }
+  .footNav{
+    margin-left: 35%;
+  }
 }
