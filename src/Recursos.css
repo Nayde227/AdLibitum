@@ -6,19 +6,24 @@
     
   }
   .imgR{
+    display: flex;
+    align-items: center;
     width: 700px;
     height: 900px;
-    margin-left: 15%;
+    
     margin-top:5%;
   }
  
 .guía{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
     color:black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    margin-left: 15%;
+    
   }
   .guía:hover{
     color: rgb(0, 90, 139); /* Color del enlace al pasar el cursor */

@@ -12,3 +12,14 @@
     height: 50%;
     margin-top: 80px;
 }
+/* ============================MOBILE=====================================*/
+@media screen and (max-width: 768px){
+    .bio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5%;
+    }
+  }
+  
