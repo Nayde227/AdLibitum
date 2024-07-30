@@ -31,14 +31,15 @@
     .eText{
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap:5%;
     }
     .imgE{
        
         border-radius:10%;
-        width: 70%;
-        height: 30%;
-        margin-top: 50px;
+        width: 60%;
+        height: 20%;
+        margin-top: 0;
         
     }
   }

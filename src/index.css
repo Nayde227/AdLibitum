@@ -27,7 +27,7 @@ a {
 
 
 h1 {
-  font-size: 4.5em;
+  font-size: 3.5rem;
 }
 h2{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
@@ -35,9 +35,9 @@ h2{
 footer{
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   font-size: 1.5rem;
-  
+  margin-top: 90%;
 }
 /* ============================MOBILE=====================================*/
 @media screen and (max-width: 768px){
@@ -48,4 +48,7 @@ footer{
     font-size: 2rem;
   }
   
+  footer{
+    font-size: 1rem;
+  }
 }

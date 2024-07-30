@@ -21,5 +21,10 @@
         align-items: center;
         gap:5%;
     }
+    .foto1{
+        margin-top: 0;
+        width: 70%;
+        height: 20%;
+    }
   }
   

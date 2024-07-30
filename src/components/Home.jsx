@@ -8,8 +8,10 @@ import '../Nav.css'
 function Home() {
 
 
-    return (
+    return (<>
         <Nav></Nav>
+        <h1>Home</h1>
+        </>
     )
 
 }

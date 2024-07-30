@@ -10,7 +10,6 @@
     align-items: center;
     width: 700px;
     height: 900px;
-    
     margin-top:5%;
   }
  
@@ -30,3 +29,22 @@
   transform: scale(1.1); /* Aumenta el tamaño del enlace al pasar el cursor */
   }
   
+   /* ============================MOBILE=====================================*/
+@media screen and (max-width: 768px){
+
+  .guía{
+    font-size: 1rem;
+  }
+  .cuaderno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .imgR{
+  width: 300px;
+    height: 400px;
+    margin-top:25%;
+}
+
+}

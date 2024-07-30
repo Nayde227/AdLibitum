@@ -17,6 +17,7 @@ function Nav() {
                     <img className="logo" src={logo} alt="Ad Libitum Academy Logo"/>
                     <h1> Ad Libitum Academy</h1>
                 </div>
+                <div className="navMenu">
                 <div className="menu-hamburguesa" onClick={toggleMenu}>
                     <div className={`bar1 ${isOpen ? 'change' : ''}`}></div>
                     <div className={`bar2 ${isOpen ? 'change' : ''}`}></div>
@@ -44,7 +45,7 @@ function Nav() {
                     </a>
                 </footer>
                 </div>
-                
+                </div>
             </section>
         </>
     );
